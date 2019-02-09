@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ordering.API", "src\Services\Ordering\Ordering.API\Ordering.API.csproj", "{E00BF2E0-3CB3-4C7C-AFAC-5E7FC92F1CD5}"
 EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{1D2B3664-03A3-41E0-AFA6-B3365CF3D95F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,18 @@ Global
 		{E00BF2E0-3CB3-4C7C-AFAC-5E7FC92F1CD5}.Release|x64.Build.0 = Release|Any CPU
 		{E00BF2E0-3CB3-4C7C-AFAC-5E7FC92F1CD5}.Release|x86.ActiveCfg = Release|Any CPU
 		{E00BF2E0-3CB3-4C7C-AFAC-5E7FC92F1CD5}.Release|x86.Build.0 = Release|Any CPU
+		{1D2B3664-03A3-41E0-AFA6-B3365CF3D95F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D2B3664-03A3-41E0-AFA6-B3365CF3D95F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D2B3664-03A3-41E0-AFA6-B3365CF3D95F}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{1D2B3664-03A3-41E0-AFA6-B3365CF3D95F}.Debug|x64.Build.0 = Debug|Any CPU
+		{1D2B3664-03A3-41E0-AFA6-B3365CF3D95F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{1D2B3664-03A3-41E0-AFA6-B3365CF3D95F}.Debug|x86.Build.0 = Debug|Any CPU
+		{1D2B3664-03A3-41E0-AFA6-B3365CF3D95F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D2B3664-03A3-41E0-AFA6-B3365CF3D95F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D2B3664-03A3-41E0-AFA6-B3365CF3D95F}.Release|x64.ActiveCfg = Release|Any CPU
+		{1D2B3664-03A3-41E0-AFA6-B3365CF3D95F}.Release|x64.Build.0 = Release|Any CPU
+		{1D2B3664-03A3-41E0-AFA6-B3365CF3D95F}.Release|x86.ActiveCfg = Release|Any CPU
+		{1D2B3664-03A3-41E0-AFA6-B3365CF3D95F}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
